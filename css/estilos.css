@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Thasadith', sans-serif;
+}
+
+.parrafo {
+    color:teal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(-225deg, rgba(255, 254, 255, 0.334) 0%, rgba(215, 255, 254, 0.317) 100%), url(../te.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hotpink;
+
+}
+
+.menuicono {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background-color: hotpink;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.menu-navegacion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: #E4E4E1;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 71%, rgba(0,0,0,0.02) 83%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    background-blend-mode: normal,color-burn;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+   transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0 0, .5);
+}
+
+.spread {
+    transform: translate(0);
+}
+
+.menu-navegacion a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 45px;
+    text-shadow: 2px 2px rgb(4, 4, 4);
+}
+
+.titulo{
+    font-size: 100px;
+    margin-bottom: 15px;
+    text-shadow: 2px 1px rgb(245, 217, 233);
+}
+
+.copy {
+    font-weight: 200;
+    font-size: 40px;
+
+}
+/*Experiencia*/
+
+.subtitulo{  
+    text-align: center;
+    font-weight: 300;
+    color:hotpink;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.contenedor-experiencia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-experiencia img {
+    width: 40%;  
+}
+
+.checklist-experiencia {
+    width: 60%;
+}
+
+.experiencias {
+    margin-bottom: 20px;
+}
+
+.n-experiencias {
+    margin-bottom: 7px;
+    color:teal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.number {
+    display: inline-block;
+    background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+    width: 60px;
+    height: 60px;
+    color:#fff;
+    text-align: center;
+    border-radius: 20%;
+    font-weight: 1000px;
+    line-height: 50px;
+    margin-right: 5px;
+}
+
+.contenedor-educacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-educacion img {
+    width: 40%;    
+}
+
+.checklist-educacion {
+    width: 60%;
+}
+
+.educacions {
+    margin-bottom: 20px;
+}
+
+.n-educacions {
+    margin-bottom: 7px;
+    color:teal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.contenedor-skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-skills img {
+    width: 40%;    
+}
+
+.checklist-skills {
+    width: 60%;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.n-skill {
+    margin-bottom: 7px;
+    color:teal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+footer {
+    background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+    padding-bottom: 0.1px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact.us {
+    width: 40%;
+    color: #fff;
+}
+
+.social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color:hotpink;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line {
+    width: 90%;
+    max-width:1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
